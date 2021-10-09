@@ -12,17 +12,27 @@ public class LiberarEmprestimoTest {
     }
 
     @Test
-    public void testSaldoInvalido() {
-        System.out.println("Saldo inválido");
+    public void testSaldoMedio() {
+        System.out.println("Saldo médio");
         
-        assertEquals("Saldo Inválido", liberar.classificarEmprestimo(700));
+        assertEquals("Saldo médio inválido", liberar.classificarEmprestimo(700));
+        assertEquals("Saldo médio válido", liberar.classificarEmprestimo(1100));
+       
     }
     
     @Test
-    public void testSaldoValido() {
-        System.out.println("Saldo válido");
+    public void testHistoricoBom() {
+        System.out.println("Histórico bom?");
         
-        assertEquals("Saldo Válido", liberar.classificarEmprestimo(1100));
+        assertEquals(1, liberar.classificarEmprestimo(1));
     }
-
+    
+    @Test
+    public void testConcessaoEsp() {
+        System.out.println("Concessão especial de crédito");
+        
+        assertEquals("Não possui concessão especial", liberar.classificarEmprestimo(1100));
+        assertEquals("Possui concessão especial", liberar.classificarEmprestimo(1500));
+    }
+    
 }

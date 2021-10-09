@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest" time="0.043" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest" time="0.105" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo\target\test-classes;C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo\target\classes;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo\target\test-classes;C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo\target\classes;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\gabri\AppData\Local\Temp\surefire15521387123821708352\surefirebooter466748204898820615.jar C:\Users\gabri\AppData\Local\Temp\surefire15521387123821708352 2021-09-27T20-31-56_373-jvmRun1 surefire15802338948541354181tmp surefire_018176434800536389813tmp"/>
+    <property name="sun.java.command" value="C:\Users\gabri\AppData\Local\Temp\surefire2897382152631021954\surefirebooter12777482536232894335.jar C:\Users\gabri\AppData\Local\Temp\surefire2897382152631021954 2021-10-08T23-01-25_420-jvmRun1 surefire9481519715432464469tmp surefire_06892840291813587989tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest#testSaldoValido"/>
-    <property name="surefire.test.class.path" value="C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo\target\test-classes;C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo\target\classes;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="test" value="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest#testHistoricoBom"/>
+    <property name="surefire.test.class.path" value="C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo\target\test-classes;C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo\target\classes;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\gabri"/>
     <property name="user.language" value="pt"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2021-04-20"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo"/>
+    <property name="basedir" value="C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gabri\AppData\Local\Temp\surefire15521387123821708352\surefirebooter466748204898820615.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gabri\AppData\Local\Temp\surefire2897382152631021954\surefirebooter12777482536232894335.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\gabri\AppData\Local\Temp\"/>
     <property name="java.version" value="16.0.1"/>
-    <property name="user.dir" value="C:\Users\gabri\Documents\NetBeansProjects\ProjetoAprovacaoEmprestimo"/>
+    <property name="user.dir" value="C:\Users\gabri\Documents\GitHub\Aprovacao_Emprestimo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,11 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testSaldoValido" classname="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest" time="0.036">
-    <failure message="expected: &lt;Saldo Válido&gt; but was: &lt;Saldo Inválido&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Saldo Válido> but was: <Saldo Inválido>
-	at com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest.testSaldoValido(LiberarEmprestimoTest.java:25)
-]]></failure>
-    <system-out><![CDATA[Saldo válido
-]]></system-out>
-  </testcase>
+  <testcase name="testHistoricoBom" classname="com.mycompany.projetoaprovacaoemprestimo.LiberarEmprestimoTest" time="0.099"/>
 </testsuite>

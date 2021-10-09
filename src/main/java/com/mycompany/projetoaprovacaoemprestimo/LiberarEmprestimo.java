@@ -1,11 +1,27 @@
 package com.mycompany.projetoaprovacaoemprestimo;
 public class LiberarEmprestimo {
     
-    public String classificarEmprestimo (int mtInSaldo) {
+    public String classificarSaldo (int mtInSaldo) {
     
-        String mtOutEmprestimo = "Saldo Válido";
+        String mtOutSaldo = "";
     
-        return mtOutEmprestimo;
+        return mtOutSaldo;
+        
+    }
+    
+    public int classificarEmprestimo (int mtInHistorico) {
+    
+        return 1;
+//        return mtOutHistoricoBom;
+        
+    }
+    
+    public boolean classificarConcessao (boolean mtConcessao) {
+    
+        boolean mtOutConcessaoNaoEspecial = false;
+        boolean mtOutConcessaoEspecial = true;
+        
+        return mtOutConcessaoEspecial;
         
     }
 }
